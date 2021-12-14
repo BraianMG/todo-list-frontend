@@ -3,7 +3,6 @@
 - [__ToDo List__ (Documentation)](#todo-list-documentation)
   - [__Test it__](#test-it)
   - [__Frontend__](#frontend)
-  - [__Comments__](#comments)
 ---
 ## __Test it__
 - Install dependencies whit __npm install__
