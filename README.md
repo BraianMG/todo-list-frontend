@@ -1,9 +1,5 @@
 # __ToDo List - Frontend__ (Documentation)
 
-- [__ToDo List__ (Documentation)](#todo-list-documentation)
-  - [__Test it__](#test-it)
-  - [__Frontend__](#frontend)
-
 ## __Test it__
 - Install dependencies whit __npm install__
 - Start the app with __npm run start__
