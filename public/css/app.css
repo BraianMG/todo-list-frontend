@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #074eaa; 
+    background: -webkit-linear-gradient(to right, #041d61, #074eaa);  
+    background: linear-gradient(to right, #041d61, #074eaa); 
+    font-size: 1.6rem;
+}
+
+.logo {
+    max-height: 80px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+h3 {
+    font-family: 'Staatliches', cursive;
+    color:#074eaa;
+    font-size: 2.4rem;
+}
+
+.btn {
+    font-size:1.4rem;
+}
+
+.list-group-item:hover {
+    background: #b0c4de;
+}
+
+form {
+    border-radius: .3rem;
+}
