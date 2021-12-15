@@ -32,7 +32,7 @@ const Navbar = props => {
                     <div className="d-flex justify-content-between align-items-center py-3">
                         <div className="col-sm-2">
                             <Link to='/' >
-                                <img className="img-fluid rounded logo" src={logo} alt="ToDo List Logo"/>
+                                <img data-cy="logo" className="img-fluid rounded logo" src={logo} alt="ToDo List Logo"/>
                             </Link>
                         </div>
                         <div className="col-sm-10 d-flex justify-content-end">

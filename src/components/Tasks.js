@@ -95,7 +95,7 @@ const Tasks = () => {
             <h1>{userLS.name}'s Tasks</h1>
 
             <div className="col-12 mb-5 d-flex justify-content-center">
-                <Link to={'/newtask'} className="btn btn-success text-uppercase py-2 px-5 font-weight-bold">create a new task</Link>
+                <Link data-cy="newTask-button" to={'/newtask'} className="btn btn-success text-uppercase py-2 px-5 font-weight-bold">create a new task</Link>
             </div>
 
             <div className="col-lg-6 col-md-8 col-sm-10 mx-auto px-3">

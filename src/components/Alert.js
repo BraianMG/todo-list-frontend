@@ -5,7 +5,7 @@ const Alert = props => {
     const { msg, danger } = props.alert;
     return (
         <Fragment>
-            <div className={danger ? "alert alert-danger mt-5 text-center" : "alert alert-success mt-5 text-center"} role="alert">
+            <div data-cy="alert" className={danger ? "alert alert-danger mt-5 text-center" : "alert alert-success mt-5 text-center"} role="alert">
                 <ul>
                     <li>
                         {msg}

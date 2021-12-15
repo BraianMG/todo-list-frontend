@@ -85,7 +85,7 @@ const Login = props => {
         auth ? <Navigate to='/mytasks' />
         :
         <Fragment>
-            <h1>Login</h1>
+            <h1 data-cy="login-title">Login</h1>
 
             <div className="col-xl-4 col-md-6 col-sm-10 mx-auto px-3">
                 <form 
@@ -100,6 +100,7 @@ const Login = props => {
                             id="email" 
                             name="email" 
                             placeholder="Your email" 
+                            data-cy="email-input"
                             onChange={readForm}
                         />
                     </div>
@@ -112,11 +113,17 @@ const Login = props => {
                             id="password" 
                             name="password" 
                             placeholder="Your password" 
+                            data-cy="password-input"
                             onChange={readForm}
                         />
                     </div>
 
-                    <input type="submit" className="btn btn-primary mt-3 w-100 p-3 text-uppercase font-weight-bold" value="Login" />
+                    <input 
+                        type="submit"
+                        className="btn btn-primary mt-3 w-100 p-3 text-uppercase font-weight-bold"
+                        value="Login"
+                        data-cy="login-button"
+                    />
 
                     {alert.active ? <Alert alert={alert} /> : ''}
                 </form>
@@ -124,7 +131,7 @@ const Login = props => {
                 <div className="container mt-5 py-5">
                 <div className="row">
                     <div className="col-12 mb-5 d-flex justify-content-center">
-                        <Link to={'/signup'} className="btn btn-info text-uppercase py-2 px-5 font-weight-bold">Signup</Link>
+                        <Link data-cy="signup-button" to={'/signup'} className="btn btn-info text-uppercase py-2 px-5 font-weight-bold">Signup</Link>
                     </div>
                 </div>
             </div>

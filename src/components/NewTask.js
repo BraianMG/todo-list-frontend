@@ -110,11 +110,12 @@ const NewTask = () => {
                             id="description" 
                             name="description" 
                             placeholder="Enter a description" 
+                            data-cy="description-input"
                             onChange={readForm}
                         />
                     </div>
 
-                    <input type="submit" className="btn btn-primary mt-3 w-100 p-3 text-uppercase font-weight-bold" value="Add" />
+                    <input data-cy="addTask-button" type="submit" className="btn btn-primary mt-3 w-100 p-3 text-uppercase font-weight-bold" value="Add" />
 
                     {alert.active ? <Alert alert={alert} /> : ''}
                 </form>
